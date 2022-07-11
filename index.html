@@ -9,13 +9,62 @@
 </head>
 
 <body>
-    <header>
-
+    <header class="header">
+        <img src="img/logo.webp" class="header_logo">
+        <div class="conteiner">
+            <h1 class="header_text">Site about anything</h1>
+            <nav class="navigation">
+                <ul>
+                    <li><a class="navigation_item" href="#">About smth</a></li>
+                    <li><a class="navigation_item" href="#">About anythng</a></li>
+                    <li><a class="navigation_item" href="#">About everythng</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-
+        <section class="main_about_smth">
+            <div class="conteiner_some_teory">
+                <div class="container_about_smth">
+                    <h2 class="about_smth_text">About something</h2>
+                    <p class="about_smth_description">When you know something, its mean that you know not everything but
+                        you
+                        exactly know anything</p>
+                    <div class="about_picture">
+                        <img class="about_smth_img" src="img/smth.png">
+                    </div>
+                </div>
+                <div class="container_about_anythng">
+                    <h2 class="about_text">About anything</h2>
+                    <p class="about_description">When you say that you know anything, it's mean that you probably know
+                        something but not everything</p>
+                    <div class="about_picture">
+                        <img class="about_anythng_img" src="img/anythng.jpg">
+                    </div>
+                </div>
+                <div class="container_about_everythng">
+                    <h2 class="about_text">About everything</h2>
+                    <p class="about_description">If you say that you know everything, probably you know nothing</p>
+                    <div class="about_picture">
+                        <img class="about_everythng_img" src="img/everythng.jfif">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main_choice">
+            <fieldset class="field_choice">
+                <legend>Make your choice</legend>
+                <input id="Something" type="radio" class="radio_choice" name="choice" value="Something" required><label
+                    for="Something">Something</label>
+                <input id="Anything" type="radio" class="radio_choice" name="choice" value="Anything" required><label
+                    for="Anything">Anything</label>
+                <input id="Everything" type="radio" class="radio_choice" name="choice" value="Everything"
+                    required><label for="Everything">Everything</label>
+            </fieldset>
+            <textarea class="description_choice" placeholder="Why this choice?" required></textarea>
+        </section>
+        <button type="submit">Answer</button>
     </main>
-
 </body>
 
 </html>
