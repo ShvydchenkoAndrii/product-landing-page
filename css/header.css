@@ -6,6 +6,7 @@
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    border-bottom: 2px solid black;
 }
 
 .header div {
@@ -49,10 +50,12 @@ li {
 a {
     text-decoration: none;
     color: var(--font-color);
-    width: 70px;
-    height: 30px;
     background-color: var(--background-color);
+    padding: 5px;
+    border-radius: 10px;
 }
 a:hover {
     background-color: black;
+    transition: 0.5s;
+    border-radius: 10px;
 }
