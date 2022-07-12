@@ -1,16 +1,58 @@
+@import url(common.css);
+
 .header {
     background-color: var(--background-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
+    align-items: center;
 }
+
+.header div {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.conteiner ul {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+
+}
+
+.header_text {
+    color: var(--font-color);
+    font-size: 3rem;
+    padding: 15px;
+}
+
 .header_logo {
     width: 200px;
     height: 100px;
+    margin: 15px;
 }
-.conteiner > ul { 
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex: 1;
+
+li {
+    color: var(--font-color);
+    font-family: Rubik, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+    width: 70px;
+    height: 30px;
+    background-color: var(--background-color);
+}
+a:hover {
+    background-color: black;
 }
