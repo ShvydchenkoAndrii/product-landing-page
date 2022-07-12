@@ -7,10 +7,18 @@
 }
 :root {
     font-family: Rubik, sans-serif;
-    --background-color: cyan   ;
+    --background-color: rgb(39, 42, 203);
+    --background-color2: rgb(82, 85, 246);
+    --background-color3: #ffffff;
+    --background-color4: black;
+    --text-color: black;
+    --text-color2: white;
+    --text-color3: red;
+    --text-color4: rgb(82, 85, 246);
+    
 }
 body {
-    background-color: var(--background-color);
+    background-color: var(--background-color2);
     --font-color: #ffffff;
 }
 

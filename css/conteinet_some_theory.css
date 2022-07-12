@@ -5,11 +5,16 @@
     border-radius: 20px;
     padding: 5px;
     text-align: center;
+    background-color: var(--background-color3);
+   
+    
 }
 
 .container_about_teory:hover {
-    background-color: black;
+    background-color: var(--background-color4);
     transition: 0.5s;
+    color: var(--text-color);
+
 }
 .about_theory_img {
     width: 150px;
@@ -27,10 +32,11 @@
 }
 .about_text {
     margin: 7px;
-    color: var(--font-color);
+    color: var(--text-color4);
 
 }
+
 .about_description {
-    color: red;
+    color: var(--text-color3);
     margin: 5px
 }
