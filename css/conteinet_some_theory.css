@@ -1,0 +1,29 @@
+.container_about_teory {
+    width: 200px;
+    height: 400px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.about_theory_img {
+    width: 150px;
+    height: 150px;
+    margin-left: 12.5px;
+}
+.conteiner_some_theory {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.about_text {
+    margin: 7px;
+    color: var(--font-color);
+
+}
+.about_description {
+    color: red;
+    margin: 5px
+}

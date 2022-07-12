@@ -1,0 +1,20 @@
+.main_choice {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.field_choice {
+    width: 700px;
+    height: 100px;
+    text-align: center;
+}
+.radio_choice {
+    margin: 25px;
+}
+.description_choice {
+    width: 500px;
+    height: 300px;
+}
