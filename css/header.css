@@ -1,0 +1,16 @@
+.header {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.header_logo {
+    width: 200px;
+    height: 100px;
+}
+.conteiner > ul { 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: 1;
+}
