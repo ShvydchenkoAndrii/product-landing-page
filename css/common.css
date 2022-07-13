@@ -15,7 +15,7 @@
     --text-color2: white;
     --text-color3: red;
     --text-color4: rgb(82, 85, 246);
-    
+    display: inline-block;
 }
 body {
     background-color: var(--background-color2);
